@@ -515,7 +515,7 @@ header .intro-text {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #fff;
+  color: #3306f8;
 }
 #services .section-title h2::after {
   position: absolute;
@@ -543,7 +543,7 @@ header .intro-text {
   color: #fff;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(231, 11, 165, 0.75);
 }
 #services .service-desc {
   margin-bottom: 40px;

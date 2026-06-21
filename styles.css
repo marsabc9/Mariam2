@@ -497,7 +497,7 @@ header .intro-text {
 #about img {
   width: 520px;
   margin-top: 10px;
-  background: #fff;
+  background: #f40909;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
@@ -509,13 +509,13 @@ header .intro-text {
 #services {
   padding: 100px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
+  color: #030204;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #3306f8;
+  color: #030204;
 }
 #services .section-title h2::after {
   position: absolute;

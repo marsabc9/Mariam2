@@ -669,6 +669,25 @@ header .intro-text {
 #contact > .container {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+#contact > .container > .col-8 {
+  flex: 0 0 calc(66.666% - 15px);
+  max-width: calc(66.666% - 15px);
+}
+
+#contact > .container > .contact-info {
+  flex: 0 0 calc(33.333% - 15px);
+  max-width: calc(33.333% - 15px);
+  margin-left: 0;
+  padding-top: 20px;
+}
+
+#contact > .container > .col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 
 #contact {
@@ -699,7 +718,7 @@ header .intro-text {
 }
 #contact h3 {
   color: #fff;
-  margin-top: 80px;
+  margin-top: 0;
   margin-bottom: 25px;
   padding-bottom: 20px;
   font-weight: 400;
@@ -754,7 +773,7 @@ label {
   margin-bottom: 15px;
 }
 #contact .contact-item {
-  margin: 20px 0;
+  margin: 0 0 20px;
 }
 #contact .contact-item span {
   color: rgba(255, 255, 255, 1);
@@ -802,6 +821,18 @@ label {
 }
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
+}
+
+@media (max-width: 991px) {
+  #contact > .container {
+    gap: 0;
+  }
+
+  #contact > .container > .col-8,
+  #contact > .container > .contact-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 768px) {

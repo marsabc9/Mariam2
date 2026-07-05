@@ -509,13 +509,13 @@ header .intro-text {
 #services {
   padding: 100px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #030204;
+  color: #fff;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #030204;
+  color: #fff;
 }
 #services .section-title h2::after {
   position: absolute;
@@ -543,7 +543,7 @@ header .intro-text {
   color: #fff;
 }
 #services p {
-  color: rgba(231, 11, 165, 0.75);
+  color: rgba(255, 255, 255, 0.75);
 }
 #services .service-desc {
   margin-bottom: 40px;

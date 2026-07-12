@@ -515,7 +515,7 @@ header .intro-text {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #ff2626;
+  color: #fff;
 }
 #services .section-title h2::after {
   position: absolute;
@@ -543,7 +543,7 @@ header .intro-text {
   color: #fff;
 }
 #services p {
-  color: rgb(248, 6, 6);
+  color: fff;
 }
 #services .service-desc {
   margin-bottom: 40px;
@@ -610,7 +610,7 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  background: #f6f6f6;
+  background: #6372ff;
 }
 #testimonials i {
   color: #e6e6e6;

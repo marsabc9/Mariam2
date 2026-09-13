@@ -14,10 +14,13 @@ html {
   width: 100% !important;
   height: 100% !important;
   margin: 0;
+ 
+
 }
 
 body {
   padding-top: 70px;
+  background-color: #0c0b0b;
 }
 
 img {
@@ -434,7 +437,7 @@ header .intro-text {
 /* Features Section */
 #features {
   padding: 100px 0;
-  background: #f6f6f6;
+  background: #000000;
 }
 #features i.fa {
   font-size: 38px;
@@ -508,7 +511,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: #000000;
   color: #fff;
 }
 #services .service-desc {
@@ -610,7 +613,7 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  background: #6372ff;
+  background: #000000;
 }
 #testimonials i {
   color: #e6e6e6;
@@ -692,7 +695,7 @@ header .intro-text {
 
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: #000000;
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -772,16 +775,31 @@ label {
 #contact .form-group {
   margin-bottom: 15px;
 }
-#contact .contact-item {
-  margin: 0 0 20px;
+#contact .contact-info h3 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #fff;
+  font-weight: 400;
 }
-#contact .contact-item span {
+#contact .contact-item {
+  margin: 0 0 25px 0;
+}
+#contact .contact-label {
   color: rgba(255, 255, 255, 1);
-  margin-bottom: 10px;
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  font-weight: 500;
   display: block;
 }
-#contact .contact-item i.fa {
+#contact .contact-label i.fa {
   margin-right: 10px;
+  min-width: 16px;
+}
+#contact .contact-value {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 15px;
+  margin-left: 26px;
 }
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
@@ -809,7 +827,7 @@ label {
 }
 /* Footer Section*/
 #footer {
-  background: #f6f6f6;
+  background: #050505;
   padding: 30px 0;
 }
 #footer p {

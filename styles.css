@@ -151,7 +151,7 @@ h2 {
   margin: 0 0 20px;
   font-weight: 800;
   font-size: 36px;
-  color: #333;
+  color: #ffffff;
 }
 h3 {
   font-size: 20px;
@@ -374,7 +374,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: white;
 }
 .btn:active,
 .btn.active {
